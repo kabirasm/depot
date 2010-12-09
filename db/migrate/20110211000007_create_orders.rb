@@ -12,7 +12,7 @@ class CreateOrders < ActiveRecord::Migration
       t.string :name
       t.text :address
       t.string :email
-      t.string :pay_type, :limit => 10
+      t.string :pay_type, :limit => 100
 
       t.timestamps
     end
